@@ -1,1 +1,3 @@
-# CS-370_TreasureHuntGame
+# TreasureHuntGame
+
+This project focuses on training a pirate agent to navigate a maze and find treasure using deep Q-learning. I completed the qtrain function which involves setting training parameters, iterating through games, and playing each game. Within each game, the pirate chooses the optimal action (explore randomly or exploit learned knowledge), updates the game state based on the action, stores the experience, trains the model on past experiences, and tracks the win rate. The goal is to stop training when the agent consistently wins (above 90% win rate). After successfully implementing the deep Q-learning algorithm I wrote a defense summary comparing the Human vs Machine Approach, The Purpose of the Intelligent Agent, and The Algorithm Used to Solve the complex problem.
